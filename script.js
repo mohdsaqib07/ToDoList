@@ -44,8 +44,8 @@ function updateTasks() {
         div.setAttribute('style', 'width:18rem;height:12rem;');
         div.innerHTML = `   <div class="card-body d-flex flex-column align-items-center justify-content-center">
 
-                <button type="button" class="btn btn-outline-primary rounded-pill" style="width: 65px !important;height: 65px !important;" onclick="localStorage.clear();location.reload()">x</button>
-                <p class="text-primary" style="opacity: 0.5;">Delete All</p>
+                <button type="button" class="btn btn-outline-danger rounded-pill" style="width: 65px !important;height: 65px !important;" onclick="localStorage.clear();location.reload()">x</button>
+                <p class="text-danger" style="opacity: 0.5;">Delete All</p>
             </div>
         </div>`
 
